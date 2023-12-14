@@ -1,0 +1,45 @@
+.referans__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+}
+
+.referans__icon{
+    margin-top: 5px;
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+.referans {
+background: var(--color-bg-variant);
+padding: 1.5rem;
+border-radius: 2rem;
+border: 1px solid transparent;
+transition: var(--transition);
+}
+
+.referans:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+h4, h5, small {
+    display: inline;
+    margin-left: 0.5rem;
+}
+article {
+    margin: 1rem 1rem;
+}
+@media screen and (max-width: 1024px) {
+    .referans__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .referans__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
