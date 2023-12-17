@@ -2,9 +2,9 @@ import React from 'react'
 import Header from './components/header/Header'
 import About from './components/about/About'
 import Nav from './components/nav/Nav'
-import Deneyim from './components/deneyim/Deneyim'
+import Yetenek from './components/yetenek/Yetenek'
 import Services from './components/services/Services'
-import Portfolio from './components/portfolio/Portfolio'
+import Projeler from './components/projeler/Projeler'
 import Referans from './components/referans/Referans'
 import Contact from './components/contact/Contact'
 import Download from './components/download/Download'
@@ -15,9 +15,9 @@ const App = () => {
       <Header />
       <Nav/>
       <About/>
-      <Deneyim/>
+      <Yetenek/>
       <Services/>
-      <Portfolio/>
+      <Projeler/>
       {/* <Referans/> */}
       <Contact/>
       <Download/>
