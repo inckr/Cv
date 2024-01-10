@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Header from './components/header/Header'
 import About from './components/about/About'
 import Nav from './components/nav/Nav'
@@ -8,6 +8,7 @@ import Projeler from './components/projeler/Projeler'
 import Referans from './components/referans/Referans'
 import Contact from './components/contact/Contact'
 import Download from './components/download/Download'
+import axios from 'axios'
 
 const App = () => {
   return (
